@@ -1,0 +1,24 @@
+# Raw corpora are not redistributed; place them under data/ locally
+data/cesnet/
+data/Scenario*/
+data/**/*.arff
+data/**/*.h5
+
+# Assistant and editor state
+.omc/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Report written by scripts/checks/validate_pipeline.py
+reports/
+
+# Editors and OS
+.vscode/
+.idea/
+*.swp
+.DS_Store

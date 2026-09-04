@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this thesis or its accompanying code please cite it as below."
+type: software
+title: "Analysis pipeline for the MSc thesis on ML traffic classification errors and multi-class capacity dimensioning"
+abstract: "Analytical and Monte Carlo pipeline that composes a classifier confusion matrix as a linear operator on the per-class offered-load vector and feeds the resulting apparent load into the Kaufman-Roberts recursion for full-availability multirate loss systems. Produces per-class blocking deviation, weighted bandwidth deficit, capacity overhead, constrained sensitivity tensors and minimum-recall thresholds."
+authors:
+  - family-names: "Badaoui"
+    given-names: "Youcef"
+    affiliation: "Poznan University of Technology, Institute of Communication and Computer Networks"
+license: MIT
+repository-code: "https://github.com/YoucefBadaoui/thesis-classifier-dimensioning"
+url: "https://github.com/YoucefBadaoui/thesis-classifier-dimensioning"
+version: "v1.0"
+date-released: "2026-09-05"
+keywords:
+  - "multirate loss systems"
+  - "Kaufman-Roberts recursion"
+  - "capacity dimensioning"
+  - "blocking probability"
+  - "traffic classification"
+  - "machine learning"
+preferred-citation:
+  type: thesis
+  title: "Impact of Machine-Learning Traffic Classification Errors on Multi-Class Capacity Dimensioning in Multirate Loss Systems"
+  authors:
+    - family-names: "Badaoui"
+      given-names: "Youcef"
+      affiliation: "Poznan University of Technology, Institute of Communication and Computer Networks"
+  thesis-type: "MSc thesis"
+  institution:
+    name: "Poznan University of Technology"
+    city: "Poznan"
+    country: "PL"
+  year: 2026

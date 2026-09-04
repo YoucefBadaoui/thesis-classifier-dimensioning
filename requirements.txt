@@ -1,0 +1,33 @@
+# Direct dependencies, pinned to the versions installed in .venv, which is
+# the reference environment for the current contents of data/processed/.
+# Target interpreter: CPython 3.13.12.
+
+numpy==2.5.2
+scipy==1.18.1
+pandas==3.0.5
+
+scikit-learn==1.8.0
+xgboost==3.4.1
+lightgbm==4.7.0
+# class-balanced oversampling inside each training fold
+imbalanced-learn==0.14.2
+
+# Compiled Monte Carlo paths (src/monte_carlo/rho_sweep.py, markov_error.py,
+# multilink.py). Resolves llvmlite 0.49.0 in the reference environment.
+numba==0.67.0
+
+matplotlib==3.11.1
+# seaborn is used by the notebooks only; src/figures/ is matplotlib alone
+seaborn==0.13.2
+
+# CESNET stage (scripts/cesnet/). Pulls torch 2.13.0, cesnet-models 0.4.1,
+# tables 3.11.1 and h5py 3.16.0 plus the CUDA runtime wheels.
+cesnet-datazoo==0.2.0
+
+# Notebook kernel and headless execution; no front end is pinned.
+ipykernel==7.3.0
+nbformat==5.11.1
+nbclient==0.11.0
+nbconvert==7.17.1
+
+pytest==9.1.1
